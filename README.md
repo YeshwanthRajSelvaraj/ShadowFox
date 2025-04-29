@@ -92,8 +92,6 @@ ShadowFox/
 │
 └── README.md
 
-------------------------------------------------
-
 ```
 ## Prerequisites
 To run the code in this repository, you'll need Python 3.x and the following libraries:
@@ -107,7 +105,6 @@ pip install requests beautifulsoup4 transformers torch pandas matplotlib seaborn
 - Packet Sniffer: `scapy` (requires admin privileges to run)
 
 ``` 
-------------------------------------------------
 ```
 - **Task-Specific Requirements:**
 - Web Scraper: `requests`, `beautifulsoup4`
@@ -123,7 +120,6 @@ cd ShadowFox
 pip install -r requirements.txt
 
 ```
-------------------------------------------------
 
 ```
 
@@ -162,14 +158,12 @@ jupyter notebook task_advanced3_nlp.ipynb
 - On Windows (as Administrator):
 
 python packet_sniffer.py
-
-
-```
-
-```
-
 - On Linux/Mac (with sudo):
-------------------------------------------------
+
+
+```
+
+```
 ## Ethical Considerations
 Several tasks in this repository involve tools that can be misused if not handled responsibly:
 - **Packet Sniffer:** Capturing network packets without permission is illegal in many jurisdictions. This tool was developed and tested on my own network for educational purposes only.
