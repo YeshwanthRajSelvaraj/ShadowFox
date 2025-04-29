@@ -163,6 +163,11 @@ jupyter notebook task_advanced3_nlp.ipynb
 
 python packet_sniffer.py
 
+
+```
+
+```
+
 - On Linux/Mac (with sudo):
 ------------------------------------------------
 ## Ethical Considerations
@@ -205,6 +210,6 @@ ShadowFox Python Development Intern
 [LinkedIn Profile](https://www.linkedin.com/in/yeshwanth-raj-selvaraj-153796248/)  
 April 2025
 
-
+```
 
 
