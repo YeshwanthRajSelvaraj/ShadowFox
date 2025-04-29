@@ -19,6 +19,7 @@ As a ShadowFox Python Development Intern, I completed the following requirements
 ---
 
 ## Tasks Completed
+
 ### Beginner Level (5 out of 9)
 1. **Task 1: Variables**
    - Created a variable `pi` with value `22/7` and checked its data type.
@@ -94,6 +95,7 @@ ShadowFox/
 
 ```
 ## Prerequisites
+
 To run the code in this repository, you'll need Python 3.x and the following libraries:
 
 - **General Requirements:**
@@ -124,6 +126,7 @@ pip install -r requirements.txt
 ```
 
 ## How to Run the Code
+
 1. **Beginner Tasks (Tasks 1–5):**
 - Navigate to the respective folder (e.g., `cd Task1_Variables`).
 - Run the Python script:
@@ -172,6 +175,7 @@ Several tasks in this repository involve tools that can be misused if not handle
 ---
 
 ## Proof of Work
+
 As per ShadowFox requirements:
 - **LinkedIn Videos:** I’ve posted video explanations for each task on LinkedIn, tagging ShadowFox. Each video demonstrates the code and its output.
 - **Screenshots:** Screenshots of the code and outputs for all tasks are available and were submitted as part of the internship deliverables.
