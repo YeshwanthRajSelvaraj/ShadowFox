@@ -1,4 +1,3 @@
-# Task 2 (Intermediate): Hangman
 import random
 
 words = [
@@ -12,8 +11,6 @@ words = [
 word, hint = random.choice(words)
 word_letters = set(word)
 guessed_letters = set()
-max_attempts = 10
-attempts_left = max_attempts
 
 stages = [
     "  _____\n  |   |\n      |\n      |\n      |\n=========",
@@ -25,10 +22,13 @@ stages = [
     "  _____\n  |   |\n  O   |\n /|\\  |\n / \\  |\n========="
 ]
 
+max_attempts = len(stages)  # Set to 7
+attempts_left = max_attempts
+
 print("Welcome to Hangman!")
 print(f"Hint: {hint}")
-while attempts_left > 0 and word_letters != guessed_letters:
 
+while attempts_left > 0 and word_letters != guessed_letters:
     print("\nAttempts left:", attempts_left)
     print(stages[max_attempts - attempts_left])
     display = "".join(letter if letter in guessed_letters else "_" for letter in word)
@@ -49,7 +49,7 @@ while attempts_left > 0 and word_letters != guessed_letters:
     else:
         print("Wrong guess!")
         attempts_left -= 1
-      
+
 if word_letters == guessed_letters:
     print("\nCongratulations! You guessed the word:", word)
 else:
